@@ -1,0 +1,16 @@
+.Checkbox:checked + .Label {
+    background-color: #C2B067;
+    color: white;
+}
+
+.Checkbox {
+    display: none;
+}
+
+.Label {
+    background-color: #ebe8de;
+    padding: 5px;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.Main {
+    width: 85%;
+    padding: 30px 10px 10px 10px;
+    margin: 15px auto;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 0fr;
+    grid-template-areas: "Filters Controls" "Filters ProductList";
+}
+
+.ProductList {
+    grid-area: ProductList;
+}
+
+.Filters {
+    grid-area: Filters;
+}
+
+.Controls {
+    grid-area: Controls;
+}
+
+@media (max-width: 768px) {
+    .Main {
+        width: 100%;
+        margin: 0;
+        grid-template-columns: 1fr;
+        grid-template-areas: "Filters" "Controls" "ProductList";
+    }
+}
+
+@media (max-device-width: 1025px) {
+    .Main {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.SearchResults {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+}

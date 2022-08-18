@@ -1,0 +1,1520 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <nav
+    className="navbar fixed-top navbar-expand-lg bg-white navbar-light border-bottom border-secondary"
+  >
+    <a
+      aria-current="page"
+      className="navbar-brand active"
+      href="#/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <img
+        alt="logo"
+        className="d-inline-block align-top"
+        height="30"
+        src="polet-logo.png"
+        width="30"
+      />
+      <span
+        className="d-none d-sm-inline"
+      >
+         Fyllikoholiker 
+      </span>
+    </a>
+    <form
+      className="form-inline mx-auto"
+    >
+      <div
+        className="form-group my-auto"
+      >
+        <input
+          aria-label="Søk på produkt"
+          className="form-control mr-sm-2"
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Søk på produkt"
+          type="search"
+          value=""
+        />
+        <div>
+          <button
+            className="btn gl-btn-outline-polet d-none d-sm-block ml-2 my-2 my-sm-0"
+            onClick={[Function]}
+            type="button"
+          >
+            Søk
+          </button>
+        </div>
+      </div>
+    </form>
+    <a
+      aria-current={null}
+      className="gl-text-polet-hover"
+      data-cy="Oversikt"
+      href="#/overview"
+      onClick={[Function]}
+    >
+       Min side 
+    </a>
+  </nav>,
+  <div
+    className="Main"
+  >
+    <div
+      className="container-fluid Controls"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-8 w-50"
+        >
+          <h3
+            className="SearchResults"
+          >
+             Søkeresultater 
+          </h3>
+        </div>
+        <select
+          className="form-control col-4"
+          onChange={[Function]}
+        >
+          <option
+            value="-favorites"
+          >
+             Mest favoriserte 
+          </option>
+          <option
+            value="-watches"
+          >
+             Mest sette 
+          </option>
+          <option
+            value="price"
+          >
+             Pris (laveste først) 
+          </option>
+          <option
+            value="-price"
+          >
+             Pris (høyeste først) 
+          </option>
+          <option
+            value="-alcohol"
+          >
+             Alkohol (høyeste først) 
+          </option>
+          <option
+            value="alcohol"
+          >
+             Alkohol (laveste først) 
+          </option>
+          <option
+            value="-pricePerLiter"
+          >
+             Literpris (høyeste først) 
+          </option>
+          <option
+            value="pricePerLiter"
+          >
+             Literpris (laveste først) 
+          </option>
+          <option
+            value="-volume"
+          >
+             Volum (høyeste først) 
+          </option>
+          <option
+            value="volume"
+          >
+             Volum (laveste først) 
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="Filters"
+    >
+      <div
+        className="card"
+      >
+        <div
+          className="card-header gl-bg-polet"
+        >
+          Filter results
+        </div>
+        <div
+          className="card-footer gl-bg-polet-light-hover"
+          data-cy="Type"
+          onClick={[Function]}
+        >
+          Type
+          <div
+            className="float-right text-polet"
+          >
+            ▼
+          </div>
+        </div>
+        <div
+          className="card-body collapse enzyme-test null"
+        >
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Akevitt"
+              onChange={[Function]}
+              type="checkbox"
+              value="Akevitt"
+            />
+            <label
+              className="Label"
+              data-cy="Akevitt"
+              htmlFor="Akevitt"
+            >
+               
+              Akevitt
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Portvin"
+              onChange={[Function]}
+              type="checkbox"
+              value="Portvin"
+            />
+            <label
+              className="Label"
+              data-cy="Portvin"
+              htmlFor="Portvin"
+            >
+               
+              Portvin
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Vodka"
+              onChange={[Function]}
+              type="checkbox"
+              value="Vodka"
+            />
+            <label
+              className="Label"
+              data-cy="Vodka"
+              htmlFor="Vodka"
+            >
+               
+              Vodka
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Druebrennevin"
+              onChange={[Function]}
+              type="checkbox"
+              value="Druebrennevin"
+            />
+            <label
+              className="Label"
+              data-cy="Druebrennevin"
+              htmlFor="Druebrennevin"
+            >
+               
+              Druebrennevin
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Whisky"
+              onChange={[Function]}
+              type="checkbox"
+              value="Whisky"
+            />
+            <label
+              className="Label"
+              data-cy="Whisky"
+              htmlFor="Whisky"
+            >
+               
+              Whisky
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Likør"
+              onChange={[Function]}
+              type="checkbox"
+              value="Likør"
+            />
+            <label
+              className="Label"
+              data-cy="Likør"
+              htmlFor="Likør"
+            >
+               
+              Likør
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Gin"
+              onChange={[Function]}
+              type="checkbox"
+              value="Gin"
+            />
+            <label
+              className="Label"
+              data-cy="Gin"
+              htmlFor="Gin"
+            >
+               
+              Gin
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Bitter"
+              onChange={[Function]}
+              type="checkbox"
+              value="Bitter"
+            />
+            <label
+              className="Label"
+              data-cy="Bitter"
+              htmlFor="Bitter"
+            >
+               
+              Bitter
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Rødvin"
+              onChange={[Function]}
+              type="checkbox"
+              value="Rødvin"
+            />
+            <label
+              className="Label"
+              data-cy="Rødvin"
+              htmlFor="Rødvin"
+            >
+               
+              Rødvin
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Hvitvin"
+              onChange={[Function]}
+              type="checkbox"
+              value="Hvitvin"
+            />
+            <label
+              className="Label"
+              data-cy="Hvitvin"
+              htmlFor="Hvitvin"
+            >
+               
+              Hvitvin
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Rosévin"
+              onChange={[Function]}
+              type="checkbox"
+              value="Rosévin"
+            />
+            <label
+              className="Label"
+              data-cy="Rosévin"
+              htmlFor="Rosévin"
+            >
+               
+              Rosévin
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Musserende vin"
+              onChange={[Function]}
+              type="checkbox"
+              value="Musserende vin"
+            />
+            <label
+              className="Label"
+              data-cy="Musserende vin"
+              htmlFor="Musserende vin"
+            >
+               
+              Musserende vin
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Rom"
+              onChange={[Function]}
+              type="checkbox"
+              value="Rom"
+            />
+            <label
+              className="Label"
+              data-cy="Rom"
+              htmlFor="Rom"
+            >
+               
+              Rom
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="India pale ale"
+              onChange={[Function]}
+              type="checkbox"
+              value="India pale ale"
+            />
+            <label
+              className="Label"
+              data-cy="India pale ale"
+              htmlFor="India pale ale"
+            >
+               
+              India pale ale
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Sider"
+              onChange={[Function]}
+              type="checkbox"
+              value="Sider"
+            />
+            <label
+              className="Label"
+              data-cy="Sider"
+              htmlFor="Sider"
+            >
+               
+              Sider
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Annen type"
+              onChange={[Function]}
+              type="checkbox"
+              value="Annen type"
+            />
+            <label
+              className="Label"
+              data-cy="Annen type"
+              htmlFor="Annen type"
+            >
+               
+              Annen type
+               
+            </label>
+          </div>
+        </div>
+        <div
+          className="card-footer gl-bg-polet-light-hover"
+          data-cy="Land"
+          onClick={[Function]}
+        >
+          Land
+          <div
+            className="float-right text-polet"
+          >
+            ▼
+          </div>
+        </div>
+        <div
+          className="card-body collapse enzyme-test null"
+        >
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Norge"
+              onChange={[Function]}
+              type="checkbox"
+              value="Norge"
+            />
+            <label
+              className="Label"
+              data-cy="Norge"
+              htmlFor="Norge"
+            >
+               
+              Norge
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Tyskland"
+              onChange={[Function]}
+              type="checkbox"
+              value="Tyskland"
+            />
+            <label
+              className="Label"
+              data-cy="Tyskland"
+              htmlFor="Tyskland"
+            >
+               
+              Tyskland
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Portugal"
+              onChange={[Function]}
+              type="checkbox"
+              value="Portugal"
+            />
+            <label
+              className="Label"
+              data-cy="Portugal"
+              htmlFor="Portugal"
+            >
+               
+              Portugal
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Frankrike"
+              onChange={[Function]}
+              type="checkbox"
+              value="Frankrike"
+            />
+            <label
+              className="Label"
+              data-cy="Frankrike"
+              htmlFor="Frankrike"
+            >
+               
+              Frankrike
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Skottland"
+              onChange={[Function]}
+              type="checkbox"
+              value="Skottland"
+            />
+            <label
+              className="Label"
+              data-cy="Skottland"
+              htmlFor="Skottland"
+            >
+               
+              Skottland
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Italia"
+              onChange={[Function]}
+              type="checkbox"
+              value="Italia"
+            />
+            <label
+              className="Label"
+              data-cy="Italia"
+              htmlFor="Italia"
+            >
+               
+              Italia
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="USA"
+              onChange={[Function]}
+              type="checkbox"
+              value="USA"
+            />
+            <label
+              className="Label"
+              data-cy="USA"
+              htmlFor="USA"
+            >
+               
+              USA
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Spania"
+              onChange={[Function]}
+              type="checkbox"
+              value="Spania"
+            />
+            <label
+              className="Label"
+              data-cy="Spania"
+              htmlFor="Spania"
+            >
+               
+              Spania
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Sør-Afrika"
+              onChange={[Function]}
+              type="checkbox"
+              value="Sør-Afrika"
+            />
+            <label
+              className="Label"
+              data-cy="Sør-Afrika"
+              htmlFor="Sør-Afrika"
+            >
+               
+              Sør-Afrika
+               
+            </label>
+          </div>
+          <div>
+            <input
+              checked={false}
+              className="Checkbox"
+              id="Annet land"
+              onChange={[Function]}
+              type="checkbox"
+              value="Annet land"
+            />
+            <label
+              className="Label"
+              data-cy="Annet land"
+              htmlFor="Annet land"
+            >
+               
+              Annet land
+               
+            </label>
+          </div>
+        </div>
+        <div
+          className="card-footer gl-bg-polet-light-hover"
+          data-cy="Volum"
+          onClick={[Function]}
+        >
+          Volum
+          <div
+            className="float-right text-polet"
+          >
+            ▼
+          </div>
+        </div>
+        <div
+          className="card-body collapse enzyme-test null"
+        >
+          <div
+            className="m-2"
+          >
+            <div
+              aria-disabled={false}
+              className="input-range"
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            >
+              <span
+                className="input-range__label input-range__label--min"
+              >
+                <span
+                  className="input-range__label-container"
+                >
+                  0 cl
+                </span>
+              </span>
+              <div
+                className="input-range__track input-range__track--background"
+                onMouseDown={[Function]}
+                onTouchStart={[Function]}
+              >
+                <div
+                  className="input-range__track input-range__track--active"
+                  style={
+                    Object {
+                      "left": "0%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <span
+                  className="input-range__slider-container"
+                  style={
+                    Object {
+                      "left": "0%",
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <span
+                    className="input-range__label input-range__label--value"
+                  >
+                    <span
+                      className="input-range__label-container"
+                    >
+                      0 cl
+                    </span>
+                  </span>
+                  <div
+                    aria-valuemax={2000}
+                    aria-valuemin={0}
+                    aria-valuenow={0}
+                    className="input-range__slider"
+                    draggable="false"
+                    onKeyDown={[Function]}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="slider"
+                    tabIndex="0"
+                  />
+                </span>
+                <span
+                  className="input-range__slider-container"
+                  style={
+                    Object {
+                      "left": "100%",
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <span
+                    className="input-range__label input-range__label--value"
+                  >
+                    <span
+                      className="input-range__label-container"
+                    >
+                      2000 cl
+                    </span>
+                  </span>
+                  <div
+                    aria-valuemax={2000}
+                    aria-valuemin={0}
+                    aria-valuenow={2000}
+                    className="input-range__slider"
+                    draggable="false"
+                    onKeyDown={[Function]}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="slider"
+                    tabIndex="0"
+                  />
+                </span>
+              </div>
+              <span
+                className="input-range__label input-range__label--max"
+              >
+                <span
+                  className="input-range__label-container"
+                >
+                  2000 cl
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card-footer gl-bg-polet-light-hover"
+          data-cy="Pris"
+          onClick={[Function]}
+        >
+          Pris
+          <div
+            className="float-right text-polet"
+          >
+            ▼
+          </div>
+        </div>
+        <div
+          className="card-body collapse enzyme-test null"
+        >
+          <div
+            className="m-2"
+          >
+            <div
+              aria-disabled={false}
+              className="input-range"
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            >
+              <span
+                className="input-range__label input-range__label--min"
+              >
+                <span
+                  className="input-range__label-container"
+                >
+                  0 kr
+                </span>
+              </span>
+              <div
+                className="input-range__track input-range__track--background"
+                onMouseDown={[Function]}
+                onTouchStart={[Function]}
+              >
+                <div
+                  className="input-range__track input-range__track--active"
+                  style={
+                    Object {
+                      "left": "0%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <span
+                  className="input-range__slider-container"
+                  style={
+                    Object {
+                      "left": "0%",
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <span
+                    className="input-range__label input-range__label--value"
+                  >
+                    <span
+                      className="input-range__label-container"
+                    >
+                      0 kr
+                    </span>
+                  </span>
+                  <div
+                    aria-valuemax={42000}
+                    aria-valuemin={0}
+                    aria-valuenow={0}
+                    className="input-range__slider"
+                    draggable="false"
+                    onKeyDown={[Function]}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="slider"
+                    tabIndex="0"
+                  />
+                </span>
+                <span
+                  className="input-range__slider-container"
+                  style={
+                    Object {
+                      "left": "100%",
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <span
+                    className="input-range__label input-range__label--value"
+                  >
+                    <span
+                      className="input-range__label-container"
+                    >
+                      42000 kr
+                    </span>
+                  </span>
+                  <div
+                    aria-valuemax={42000}
+                    aria-valuemin={0}
+                    aria-valuenow={42000}
+                    className="input-range__slider"
+                    draggable="false"
+                    onKeyDown={[Function]}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="slider"
+                    tabIndex="0"
+                  />
+                </span>
+              </div>
+              <span
+                className="input-range__label input-range__label--max"
+              >
+                <span
+                  className="input-range__label-container"
+                >
+                  42000 kr
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card-footer gl-bg-polet-light-hover"
+          data-cy="Pris per liter"
+          onClick={[Function]}
+        >
+          Pris per liter
+          <div
+            className="float-right text-polet"
+          >
+            ▼
+          </div>
+        </div>
+        <div
+          className="card-body collapse enzyme-test null"
+        >
+          <div
+            className="m-2"
+          >
+            <div
+              aria-disabled={false}
+              className="input-range"
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            >
+              <span
+                className="input-range__label input-range__label--min"
+              >
+                <span
+                  className="input-range__label-container"
+                >
+                  0 kr
+                </span>
+              </span>
+              <div
+                className="input-range__track input-range__track--background"
+                onMouseDown={[Function]}
+                onTouchStart={[Function]}
+              >
+                <div
+                  className="input-range__track input-range__track--active"
+                  style={
+                    Object {
+                      "left": "0%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <span
+                  className="input-range__slider-container"
+                  style={
+                    Object {
+                      "left": "0%",
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <span
+                    className="input-range__label input-range__label--value"
+                  >
+                    <span
+                      className="input-range__label-container"
+                    >
+                      0 kr
+                    </span>
+                  </span>
+                  <div
+                    aria-valuemax={60000}
+                    aria-valuemin={0}
+                    aria-valuenow={0}
+                    className="input-range__slider"
+                    draggable="false"
+                    onKeyDown={[Function]}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="slider"
+                    tabIndex="0"
+                  />
+                </span>
+                <span
+                  className="input-range__slider-container"
+                  style={
+                    Object {
+                      "left": "100%",
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <span
+                    className="input-range__label input-range__label--value"
+                  >
+                    <span
+                      className="input-range__label-container"
+                    >
+                      60000 kr
+                    </span>
+                  </span>
+                  <div
+                    aria-valuemax={60000}
+                    aria-valuemin={0}
+                    aria-valuenow={60000}
+                    className="input-range__slider"
+                    draggable="false"
+                    onKeyDown={[Function]}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="slider"
+                    tabIndex="0"
+                  />
+                </span>
+              </div>
+              <span
+                className="input-range__label input-range__label--max"
+              >
+                <span
+                  className="input-range__label-container"
+                >
+                  60000 kr
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="card-footer gl-bg-polet-light-hover"
+          data-cy="Alkohol"
+          onClick={[Function]}
+        >
+          Alkohol
+          <div
+            className="float-right text-polet"
+          >
+            ▼
+          </div>
+        </div>
+        <div
+          className="card-body collapse enzyme-test null"
+        >
+          <div
+            className="m-2"
+          >
+            <div
+              aria-disabled={false}
+              className="input-range"
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            >
+              <span
+                className="input-range__label input-range__label--min"
+              >
+                <span
+                  className="input-range__label-container"
+                >
+                  0 %
+                </span>
+              </span>
+              <div
+                className="input-range__track input-range__track--background"
+                onMouseDown={[Function]}
+                onTouchStart={[Function]}
+              >
+                <div
+                  className="input-range__track input-range__track--active"
+                  style={
+                    Object {
+                      "left": "0%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <span
+                  className="input-range__slider-container"
+                  style={
+                    Object {
+                      "left": "0%",
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <span
+                    className="input-range__label input-range__label--value"
+                  >
+                    <span
+                      className="input-range__label-container"
+                    >
+                      0 %
+                    </span>
+                  </span>
+                  <div
+                    aria-valuemax={60}
+                    aria-valuemin={0}
+                    aria-valuenow={0}
+                    className="input-range__slider"
+                    draggable="false"
+                    onKeyDown={[Function]}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="slider"
+                    tabIndex="0"
+                  />
+                </span>
+                <span
+                  className="input-range__slider-container"
+                  style={
+                    Object {
+                      "left": "100%",
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <span
+                    className="input-range__label input-range__label--value"
+                  >
+                    <span
+                      className="input-range__label-container"
+                    >
+                      60 %
+                    </span>
+                  </span>
+                  <div
+                    aria-valuemax={60}
+                    aria-valuemin={0}
+                    aria-valuenow={60}
+                    className="input-range__slider"
+                    draggable="false"
+                    onKeyDown={[Function]}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="slider"
+                    tabIndex="0"
+                  />
+                </span>
+              </div>
+              <span
+                className="input-range__label input-range__label--max"
+              >
+                <span
+                  className="input-range__label-container"
+                >
+                  60 %
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ProductList"
+    >
+      <div
+        className="spinner-grow text-warning ml-3"
+        role="status"
+      >
+        <span
+          className="sr-only"
+        >
+          Laster...
+        </span>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders with Checkbox (Rødvin) 1`] = `
+<div>
+  <input
+    checked={false}
+    className="Checkbox"
+    id="Rødvin"
+    type="checkbox"
+    value="Rødvin"
+  />
+  <label
+    className="Label"
+    data-cy="Rødvin"
+    htmlFor="Rødvin"
+  >
+     
+    Rødvin
+     
+  </label>
+</div>
+`;
+
+exports[`renders with CheckboxFilter 1`] = `
+Array [
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Akevitt"
+      onChange={[Function]}
+      type="checkbox"
+      value="Akevitt"
+    />
+    <label
+      className="Label"
+      data-cy="Akevitt"
+      htmlFor="Akevitt"
+    >
+       
+      Akevitt
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Portvin"
+      onChange={[Function]}
+      type="checkbox"
+      value="Portvin"
+    />
+    <label
+      className="Label"
+      data-cy="Portvin"
+      htmlFor="Portvin"
+    >
+       
+      Portvin
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Vodka"
+      onChange={[Function]}
+      type="checkbox"
+      value="Vodka"
+    />
+    <label
+      className="Label"
+      data-cy="Vodka"
+      htmlFor="Vodka"
+    >
+       
+      Vodka
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Druebrennevin"
+      onChange={[Function]}
+      type="checkbox"
+      value="Druebrennevin"
+    />
+    <label
+      className="Label"
+      data-cy="Druebrennevin"
+      htmlFor="Druebrennevin"
+    >
+       
+      Druebrennevin
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Whisky"
+      onChange={[Function]}
+      type="checkbox"
+      value="Whisky"
+    />
+    <label
+      className="Label"
+      data-cy="Whisky"
+      htmlFor="Whisky"
+    >
+       
+      Whisky
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Likør"
+      onChange={[Function]}
+      type="checkbox"
+      value="Likør"
+    />
+    <label
+      className="Label"
+      data-cy="Likør"
+      htmlFor="Likør"
+    >
+       
+      Likør
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Gin"
+      onChange={[Function]}
+      type="checkbox"
+      value="Gin"
+    />
+    <label
+      className="Label"
+      data-cy="Gin"
+      htmlFor="Gin"
+    >
+       
+      Gin
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Bitter"
+      onChange={[Function]}
+      type="checkbox"
+      value="Bitter"
+    />
+    <label
+      className="Label"
+      data-cy="Bitter"
+      htmlFor="Bitter"
+    >
+       
+      Bitter
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Rødvin"
+      onChange={[Function]}
+      type="checkbox"
+      value="Rødvin"
+    />
+    <label
+      className="Label"
+      data-cy="Rødvin"
+      htmlFor="Rødvin"
+    >
+       
+      Rødvin
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Hvitvin"
+      onChange={[Function]}
+      type="checkbox"
+      value="Hvitvin"
+    />
+    <label
+      className="Label"
+      data-cy="Hvitvin"
+      htmlFor="Hvitvin"
+    >
+       
+      Hvitvin
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Rosévin"
+      onChange={[Function]}
+      type="checkbox"
+      value="Rosévin"
+    />
+    <label
+      className="Label"
+      data-cy="Rosévin"
+      htmlFor="Rosévin"
+    >
+       
+      Rosévin
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Musserende vin"
+      onChange={[Function]}
+      type="checkbox"
+      value="Musserende vin"
+    />
+    <label
+      className="Label"
+      data-cy="Musserende vin"
+      htmlFor="Musserende vin"
+    >
+       
+      Musserende vin
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Rom"
+      onChange={[Function]}
+      type="checkbox"
+      value="Rom"
+    />
+    <label
+      className="Label"
+      data-cy="Rom"
+      htmlFor="Rom"
+    >
+       
+      Rom
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="India pale ale"
+      onChange={[Function]}
+      type="checkbox"
+      value="India pale ale"
+    />
+    <label
+      className="Label"
+      data-cy="India pale ale"
+      htmlFor="India pale ale"
+    >
+       
+      India pale ale
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Sider"
+      onChange={[Function]}
+      type="checkbox"
+      value="Sider"
+    />
+    <label
+      className="Label"
+      data-cy="Sider"
+      htmlFor="Sider"
+    >
+       
+      Sider
+       
+    </label>
+  </div>,
+  <div>
+    <input
+      checked={false}
+      className="Checkbox"
+      id="Annen type"
+      onChange={[Function]}
+      type="checkbox"
+      value="Annen type"
+    />
+    <label
+      className="Label"
+      data-cy="Annen type"
+      htmlFor="Annen type"
+    >
+       
+      Annen type
+       
+    </label>
+  </div>,
+]
+`;

@@ -1,0 +1,57 @@
+body {
+    padding-top: 50px;
+}
+
+.gl-bg-polet {
+    background-color: #C2B067;
+    color: white;
+}
+
+.gl-bg-polet-light {
+    background-color: #ebe8de;
+}
+
+.gl-bg-polet-light-hover {
+    background-color: #ebe8de;
+    cursor: pointer;
+}
+
+.gl-bg-polet-light-hover:hover {
+    background-color: #ebe8dead;
+}
+
+.gl-text-polet {
+    color: #C2B067;
+}
+
+.gl-btn-outline-polet {
+    border-color: #C2B067;
+    color: #C2B067;
+}
+
+.gl-btn-outline-polet:hover {
+    background-color: #C2B067;
+    color: white;
+}
+
+.gl-border-polet-hover:hover {
+    border: 1px solid #C2B067;
+}
+
+.gl-main-container {
+    width: 85%;
+    padding: 30px 10px 10px 10px;
+    margin: auto;
+}
+
+.gl-text-align-center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.gl-text-polet-hover {
+    color: black;
+}
+.gl-text-polet-hover:hover {
+    color: #C2B067;
+}

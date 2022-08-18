@@ -1,0 +1,21 @@
+
+.Img {
+    float: left;
+    max-height: 600px;
+    max-width: 500px;
+}
+
+.InfoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.InfoContainer div {
+    min-width: 200px;
+    max-width: 300px;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 5px;
+    border-top: solid 0.3px #C2B067;
+}

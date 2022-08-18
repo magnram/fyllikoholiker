@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/prosjekt3/static/css/main.d0f80a97.chunk.css",
+    "main.js": "/prosjekt3/static/js/main.71d2c227.chunk.js",
+    "main.js.map": "/prosjekt3/static/js/main.71d2c227.chunk.js.map",
+    "runtime-main.js": "/prosjekt3/static/js/runtime-main.c3c554ab.js",
+    "runtime-main.js.map": "/prosjekt3/static/js/runtime-main.c3c554ab.js.map",
+    "static/css/2.686859f9.chunk.css": "/prosjekt3/static/css/2.686859f9.chunk.css",
+    "static/js/2.7d9a6a56.chunk.js": "/prosjekt3/static/js/2.7d9a6a56.chunk.js",
+    "static/js/2.7d9a6a56.chunk.js.map": "/prosjekt3/static/js/2.7d9a6a56.chunk.js.map",
+    "index.html": "/prosjekt3/index.html",
+    "precache-manifest.7f1e75ab009a2753736fde2dd0144580.js": "/prosjekt3/precache-manifest.7f1e75ab009a2753736fde2dd0144580.js",
+    "service-worker.js": "/prosjekt3/service-worker.js",
+    "static/css/2.686859f9.chunk.css.map": "/prosjekt3/static/css/2.686859f9.chunk.css.map",
+    "static/css/main.d0f80a97.chunk.css.map": "/prosjekt3/static/css/main.d0f80a97.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3c554ab.js",
+    "static/css/2.686859f9.chunk.css",
+    "static/js/2.7d9a6a56.chunk.js",
+    "static/css/main.d0f80a97.chunk.css",
+    "static/js/main.71d2c227.chunk.js"
+  ]
+}
